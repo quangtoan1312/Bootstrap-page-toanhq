@@ -152,6 +152,7 @@ button {
 
 .item-content-header {
     position: relative;
+    margin-top: .85rem;
 }
 
 .top-slider {
@@ -440,6 +441,7 @@ button {
 .card-body {
     min-height: 1px;
     padding: 1.25rem;
+    padding-top: 5px;
 }
 
 .item-list .item .inner-item .item-detail {
@@ -653,4 +655,204 @@ svg:not(:root).svg-inline--fa {
     position: relative;
     left: 0;
     transition: all .4s ease;
+}
+
+.mr-3,
+.mx-3 {
+    margin-right: 1rem!important;
+}
+
+.st-lg .article-count {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.box-nav.on-left-sidebar .sub-menu>ul>li:nth-child(5n+1)>a:hover,
+.box-nav.on-left-sidebar .sub-menu>ul>li:nth-child(5n+1) a.active-link {
+    background: #fb474a;
+}
+
+.fadeIn {
+    -webkit-animation: fadeOut .75s ease;
+    animation: fadeOut .75s ease;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.main-thumbail {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.text-center .mb-1 {
+    font-size: 1.5rem;
+}
+
+.mr-1,
+.mx-1 {
+    margin-right: .25rem!important;
+}
+
+.inline-site-logo {
+    background: #c4c4c4;
+    display: inline-block;
+    vertical-align: sub;
+    height: 17px;
+}
+
+.text-center.mb-1 img {
+    min-height: 1.5rem;
+}
+
+img {
+    border-style: none;
+    max-width: 100%;
+}
+
+.article-detail .margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.con-top-slider .hooper {
+    outline: 0;
+    height: auto;
+}
+
+.con-top-slider .hooper-slide {
+    position: relative;
+    outline: 0;
+}
+
+.con-top-slider .hooper-slide a {
+    color: #0fb3f3;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.con-top-slider .hooper-slide .img {
+    display: block;
+    width: 100%;
+    height: 450px;
+    background-color: #e0e0e0;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.article-content {
+    padding: 40px 40px 0;
+}
+
+.st-lg .md {
+    display: block;
+    font-size: 26px;
+    color: #2d2d2d;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.article-title {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    padding: 0;
+}
+
+.article-description-text,
+.d-article-content-text,
+.original-content-text {
+    font-size: 15px;
+}
+
+.article-description-text {
+    font-family: Roboto, sans-serif;
+}
+
+.article-description-text iframe,
+.article-description-text img,
+.article-description-text video,
+.d-article-content-text iframe,
+.d-article-content-text img,
+.d-article-content-text video,
+.original-content-text iframe,
+.original-content-text img,
+.original-content-text video {
+    max-width: 100%!important;
+}
+
+.article-description-text p,
+.d-article-content-text p,
+.original-content-text p {
+    margin-bottom: 1.6em;
+}
+
+.text-center {
+    position: relative;
+}
+
+.origin-url {
+    color: #ff5c53;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text-center .btn-share {
+    position: absolute;
+    right: -40px;
+    top: -10px;
+    font-size: 20px;
+}
+
+.text-center .btn-share .facebook-share {
+    color: #fff;
+    background-color: #1877f2;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+
+.text-center .btn-share .twitter-share {
+    color: #fff;
+    background-color: #1da1f2;
+    padding: 5px 10px;
+}
+
+.article-detail .st-lg .lg {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .article-detail .article-related .list {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+}
+
+.item-list .item {
+    margin-bottom: 40px;
+    max-width: 25%;
+}
+
+@media only screen and (min-width: 1440px) {
+    .item-list .item {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .article-detail .article-related[data-v-629f9cba] .item {
+        padding: 0 10px;
+    }
+}
+
+.fadeIn {
+    -webkit-animation: fadeOut .75s ease;
+    animation: fadeOut .75s ease;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.text-center.mb-1 {
+    font-size: 1.5rem;
 }
