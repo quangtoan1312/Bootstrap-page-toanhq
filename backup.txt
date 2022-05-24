@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="row-box no-gutters">
+            <div class="col-12 col-lg-3 col-xl-2 col-left-sidebar">
+                <div class="left-sidebar">
+                    <div class="position-relative">
+                        <div class="categories-nav">
+                            <div class="box-nav on-left-sidebar">
+                                <div class="sub-menu collapse show">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <span></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-9 col-xl-10 col-main-body">
+                <header class="page-header">
+                    <div class="row-box no-gutters">
+                        <div class="col-12 col-lg-3 col-xl-2 box-search">
+                            <button class="bton btn-search" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon svg-inline--fa fa-search fa-w-16">
+                                    <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" class=""></path>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="col-12 col-lg-9 col-xl-10">
+                            <div class="box-right">
+                                <div class="row-box">
+                                    <div class="col-5 col-lg-8 col-xl-9 box-logo">
+                                        <a href="/" aria-label="center" class="over">
+                                            <img src="./images/logo.png" width="150" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="box-download">
+                                        <div class="btn-download">
+                                            <a href="https://apps.apple.com/us/app/id1517535177" aria-label="iOS Download" class="over">
+                                                <img src="./images/ios-download.png" width="130" alt="" class="img-fluid">
+                                            </a>
+                                            <a href="https://play.google.com/store/apps/details?id=com.digidinos.glocal" aria-label="Android Download">
+                                                <img src="./images/android-download.png" width="130" alt="" class="img-fluid">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="center-logo">
+                            <a href="/" aria-label="center logo" class="over">
+                                <img src="./images/logo.png" width="140px" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
